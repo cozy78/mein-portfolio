@@ -466,6 +466,9 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+                     .hero { 
+                padding-top: 100px;
+            }
             .mobile-menu-toggle {
                 display: flex;
             }
