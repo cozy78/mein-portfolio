@@ -467,8 +467,11 @@
         /* Responsive */
         @media (max-width: 768px) {
                      .hero { 
-                padding-top: 100px;
-            }
+                min-height: auto;
+                padding: 120px 20px 60px;
+                display: flex;
+                align-items: flex-start;
+            }                 
             .mobile-menu-toggle {
                 display: flex;
             }
